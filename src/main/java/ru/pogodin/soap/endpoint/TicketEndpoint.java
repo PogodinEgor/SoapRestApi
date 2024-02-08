@@ -44,7 +44,7 @@ public class TicketEndpoint {
         System.out.println(response);
         TicketStatus ticketStatus = new TicketStatus();
         ticketStatus.setStatus("SUCCESS");
-        ticketStatus.setStatus("Content Created Successfully");
+        ticketStatus.setMessage("Content Created Successfully");
         response.setTicketStatus(ticketStatus);
         System.out.println();
 
