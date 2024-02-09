@@ -41,13 +41,10 @@ public class TicketEndpoint {
                 request.getDuration(),
                 request.getQuantity()
         );
-        System.out.println(response);
         TicketStatus ticketStatus = new TicketStatus();
         ticketStatus.setStatus("SUCCESS");
         ticketStatus.setMessage("Content Created Successfully");
         response.setTicketStatus(ticketStatus);
-        System.out.println();
-
         return response;
 
     }
