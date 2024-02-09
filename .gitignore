@@ -5,6 +5,7 @@ HELP.md
 .mvn/
 mvnw
 mvnw.cmd
+target/
 
 ### STS ###
 .apt_generated
